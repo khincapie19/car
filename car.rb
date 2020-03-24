@@ -9,6 +9,10 @@ class Car
     @velocity += ac
   end
 
+  def brake(br = 1)
+    @velocity -= br
+  end
+
 end
 
 car = Car.new
