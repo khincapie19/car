@@ -20,3 +20,6 @@ puts car.velocity
 puts car.accelerate(0)
 puts car.accelerate(2)
 puts car.accelerate(4)
+puts car.brake(0)
+puts car.brake(2)
+puts car.brake(4)
