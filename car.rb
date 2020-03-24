@@ -13,3 +13,6 @@ end
 
 car = Car.new
 puts car.velocity
+puts car.accelerate(0)
+puts car.accelerate(2)
+puts car.accelerate(4)
